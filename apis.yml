@@ -1,4 +1,16 @@
 aid: virtue-poker
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virtue-poker.png
 name: Virtue Poker
 description: 'Virtue Poker is a company surfaced as a portfolio company of pantera-capital and added to
   the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
@@ -12,7 +24,8 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct-domain-parked
 tags:
 - Company
 - Crypto
@@ -25,3 +38,12 @@ maintainers:
 common:
 - type: Website
   url: https://virtue.poker/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'virtue.poker resolves to a GoDaddy parked domain (JS redirect to /lander,
+    NS domaincontrol.com); Virtue Poker (Ethereum decentralized poker) is defunct.
+    No API, docs, SDK, GitHub, or developer surface. well-known 200s are parking-page
+    false positives, not real documents. Nothing to enrich.'
