@@ -58,3 +58,10 @@ x-enrichment:
     NS domaincontrol.com); Virtue Poker (Ethereum decentralized poker) is defunct.
     No API, docs, SDK, GitHub, or developer surface. well-known 200s are parking-page
     false positives, not real documents. Nothing to enrich.'
+x-lifecycle:
+  state: shuttered
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: false
